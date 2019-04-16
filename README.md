@@ -10,7 +10,7 @@ You can use that confirmation dialog to change the “**Reopen windows when logg
 
 > The workflow is made for Alfred 3.
 
-## Before using the script
+## Before using the workflow
 
 **You’ll want to disable the equivalent commands that come with Alfred:**
 `Alfred Preferences > Features > System`
