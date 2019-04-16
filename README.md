@@ -2,7 +2,7 @@
 
 ![](readme-images/system-commands-alfred-workflow-preview.png)
 
-Alfred doesn’t honor the “**Reopen windows when logging back in**” option. This workflow gets around it.
+Alfred doesn’t honor the [“**Reopen windows when logging back in**”](readme-images/macosx-restart-dialog.png) option. This workflow gets around it.
 
 By default, this workflow executes the “commands” by automatically going through the dialogs but if you hold down `Cmd`, you get to manually cancel or accept the confirmation dialog.
 
