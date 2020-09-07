@@ -2,17 +2,15 @@
 
 ![](readme-images/system-commands-alfred-workflow-preview.png)
 
-Alfred doesn’t honor the [“**Reopen windows when logging back in**”](readme-images/macosx-restart-dialog.png) option. This workflow gets around it.
+Alfred doesn't honor the option: [“**Reopen windows when logging back in**”](readme-images/macosx-restart-dialog.png). This workflow gets around it by basically functioning like a macro. So if you see a glimpse of the confirmation dialog before the computer starts to shut down or whatever, that is completely normal.
 
-By default, this workflow executes the “commands” by automatically going through the dialogs but if you hold down `Cmd`, you get to manually cancel or accept the confirmation dialog.
+If needed, hold down `Cmd` when executing the action to stop at the confirmation dialog. You can use this confirmation dialog to change the “**Reopen windows when logging back in**”option without actually shutting down or restarting. `Space` toggles it when the dialog is open.
 
-You can use that confirmation dialog to change the “**Reopen windows when logging back in**” option. `Space` toggles it.
-
-> The workflow is made for Alfred 3.
+> The workflow was originally made for Alfred 3, but hsould work in future versions. 
 
 ## Before using the workflow
 
-**You’ll want to disable the equivalent commands that come with Alfred:**
+So that you don't accidentally use the wrong commands, you will want to disable all the equivalent commands that come with Alfred at:
 `Alfred Preferences > Features > System`
 
 ## Default Keywords
@@ -20,7 +18,3 @@ You can use that confirmation dialog to change the “**Reopen windows when logg
 * Restart
 * Logout
 * Sleep
-
-## Hotkey info
-
-There are 2 different hotkeytriggers. Red hotkey triggers give you the confirmation dialog while the green hotkey triggers don’t.
